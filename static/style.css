@@ -1,0 +1,60 @@
+
+body {
+    background-color: #f4f6f9;
+    color: #292d32;
+    font-family: Arial, sans-serif;
+}
+
+/* cabeça */
+.cabecalho {
+    background: linear-gradient(135deg, #203c63, #304e79);
+    color: white;
+    padding: 35px 0 45px;
+}
+
+.cabecalho h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cabecalho p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+/* os cartões */
+.card {
+    border: 1px solid #dedede;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f8f8f8;
+    padding: 12px 15px;
+}
+
+.card-header h3 {
+    font-size: 23px;
+    margin: 0;
+}
+
+/* os forms */
+.form-control {
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #5479ad;
+    box-shadow: 0 0 0 0.2rem rgba(48, 78, 121, 0.15);
+}
+
+/* tabela */
+.table {
+    vertical-align: middle;
+}
+footer {
+    color: #555;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
